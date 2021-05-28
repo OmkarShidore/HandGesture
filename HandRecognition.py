@@ -8,7 +8,7 @@ git: www.github.com/OmkarShidore
 import cv2
 import math
 import numpy as np
-
+import pandas as pd
 video = cv2.VideoCapture(0)
 while video.isOpened():
     img1=np.zeros((256,256,3),np.uint8)
